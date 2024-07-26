@@ -19,16 +19,13 @@ body {
   position: fixed;
 }
 
-/* Sidebar styles */
 .sidebar {
   position: absolute;
-  top: 80px; /* Adjust this based on the height of the header */
+  top: 80px;
   right: 0;
   width: 200px;
   padding: 20px;
-  height: calc(
-    100% - 80px
-  ); /* Ensure the sidebar occupies the full height minus the header */
+  height: calc(100% - 80px);
   margin-top: 125px;
 }
 
@@ -43,7 +40,6 @@ body {
   margin-top: 235px;
 }
 
-/* Footer styles */
 footer {
   position: relative;
   bottom: 0;
