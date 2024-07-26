@@ -14,3 +14,57 @@ body {
   background-color: #000000;
   color: #9ad79b;
 }
+
+.header {
+  position: fixed;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: absolute;
+  top: 80px; /* Adjust this based on the height of the header */
+  right: 0;
+  width: 200px;
+  padding: 20px;
+  height: calc(
+    100% - 80px
+  ); /* Ensure the sidebar occupies the full height minus the header */
+  margin-top: 125px;
+}
+
+.container {
+  border: 2px dotted #9ad79b;
+  padding: 18px;
+}
+
+.features {
+  position: relative;
+  text-align: center;
+  margin-top: 235px;
+}
+
+/* Footer styles */
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #9ad79b;
+  margin: 20px 0;
+  color: #9ad79b;
+}
+
+.bottom-line {
+  border: none;
+  border-bottom: 2px dotted #9ad79b;
+  margin-top: 50px;
+  margin-bottom: 250px;
+}
